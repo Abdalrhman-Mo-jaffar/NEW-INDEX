@@ -567,6 +567,22 @@ body{
 }
 
 
+.copy-right{
+    display: flex;
+}
+
+.copy-right-style{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 4%;
+    color: white;
+    width: 100%;
+    height: auto;
+    background-color: rgb(150, 150, 150);
+}
+
+
 
 @media (max-width:1200px) {
     
