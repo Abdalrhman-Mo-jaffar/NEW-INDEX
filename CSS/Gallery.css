@@ -104,16 +104,81 @@ body{
 
 
 
+.container1{
+    display: flex;
+    margin-bottom: 350px;
+}
+
+.container1-style{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.container1-background-img{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    transition: all 0.50s;
+}
+
+.container1-text{
+    font-size: 30px;
+    color: white;
+    width: fit-content;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -300px;
+    transition: all 0.50s;
+}
 
 
 
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.container2-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    transition: all 0.50s;
+}
 
+.container2-img-gellary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: auto;
+    width: 80%;
+    transition: all 0.50s;
+}
 
+.img{
+    display: flex;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 2px 3px 5px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.50s;
+}
 
-
-
-
+.container2-img-poss{
+    display: flex;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 2px 3px 5px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+    transition: all 0.50s;
+}
 
 
 
@@ -226,6 +291,12 @@ body{
 
 
 
+@media (max-width:1200px) {
+
+
+
+}
+
 @media (max-width:800px) {
     
 .nav-bar-menu{
@@ -259,7 +330,7 @@ body{
     align-items: center;
     justify-content: center;
     top: 147px;
-    right: -30%;
+    right: -29%;
     height: 180px;
     background-color: rgb(200, 200, 200);
     padding: 16.5px;
@@ -270,6 +341,41 @@ body{
     transition: 0.50s all;
 }
 
+
+.container2-image1,.container2-image2{
+    display: flex;
+    width: 70%;
+    border-radius: 10px;
+}
+
+
+
+.container2-img-gellary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    height: auto;
+    width: 80%;
+}
+
+.img{
+    display: flex;
+    width: 70%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 2px 3px 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container2-img-poss{
+    display: flex;
+    width: 70%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 2px 3px 5px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+}
 
 
 
@@ -367,8 +473,7 @@ body{
 
 }
 
-
-@media (max-width:635px) {
+@media (max-width:680px) {
     
 .nav-bar-right-side{
     display: none;
@@ -390,9 +495,53 @@ body{
 
 }
 
+@media (max-width:580px) {
+    
+.nav-bar-right-side{
+    display: none;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 147px;
+    right: -27%;
+    height: 180px;
+    background-color: rgb(200, 200, 200);
+    padding: 16.5px;
+    padding-left: 32px;
+    padding-right: 32px;
+    gap: 30px;
+    border: 1px solid white;
+    transition: 0.50s all;
+}
+
+}
+
+@media (max-width:565px) {
+    
+.nav-bar-right-side{
+    display: none;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 147px;
+    right: -27%;
+    height: 180px;
+    background-color: rgb(200, 200, 200);
+    padding: 16.5px;
+    padding-left: 32px;
+    padding-right: 32px;
+    gap: 30px;
+    border: 1px solid white;
+    transition: 0.50s all;
+}
+
+}
+
 @media (max-width:480px) {
 
-    .nav-bar-right-side{
+.nav-bar-right-side{
     display: none;
     position: relative;
     flex-direction: column;
@@ -407,6 +556,7 @@ body{
     padding-right: 32px;
     gap: 20px;
     border: 1px solid white;
+    font-size: 12px;
     transition: 0.50s all;
 }
     

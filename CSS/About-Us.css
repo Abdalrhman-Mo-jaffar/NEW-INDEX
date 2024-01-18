@@ -106,7 +106,7 @@ body{
 
 .container1{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
 }
 
 .container1-style{
@@ -130,8 +130,8 @@ body{
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    height: 600px;
-    margin-top: -550px;
+    height: auto;
+    margin-top: -350px;
     font-family: Noto serif sinhala;
     color: white;
 }
