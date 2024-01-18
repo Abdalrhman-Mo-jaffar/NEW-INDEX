@@ -43,21 +43,25 @@ body{
     justify-content: flex-start;
     width: 400px;
     margin-right: 2%;
+    transition: all 0.50s;
 }
 
 #check{
     display: none;
     margin-left: 10px;
+    transition: all 0.50s;
 }
 
 #check:checked ~ .nav-bar-right-side{
     display: none;
+    transition: all 0.50s;
 }
 
 .menu-btn{
     display: none;
     width: 50px;
     cursor: pointer;
+    transition: all 0.50s;
 }
 
 .nav-bar-logo-text{
